@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Jupyter
+.ipynb_checkpoints
+
+# Model weights
+*.pt
+*.onnx
+models/
+
+# Dataset and test files
+data/
+output/
+*.jpg
+*.png
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# Matplotlib GUI cache
+*.matplotlib-cache
